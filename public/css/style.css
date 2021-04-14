@@ -32,6 +32,14 @@ h6 {
   font-family: "Roboto", sans-serif;
 }
 
+.uns-bg {
+  background: url("../img/symphony.png") repeat;
+}
+
+.biru-bg {
+  background-color: #f6f9fe;
+}
+
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
@@ -741,7 +749,7 @@ section {
   margin-bottom: 0;
 }
 
-.featured-services .icon-box:hover .title a,
+.featured-services .icon-box:hover .title,
 .featured-services .icon-box:hover .description {
   color: #fff;
 }
@@ -794,6 +802,20 @@ section {
 
 .about .content p:last-child {
   margin-bottom: 0;
+}
+
+.btn-ungu {
+  font-size: 16px;
+  transition: 0.5s;
+  margin-left: 25px;
+  color: #555555;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+
+.btn-ungu:hover {
+  color: #106eea;
 }
 
 /*--------------------------------------------------------------
@@ -965,6 +987,30 @@ section {
 
 .services .icon-box:hover .icon {
   border-color: #106eea;
+}
+
+.card {
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
+  transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12),
+    0.3s box-shadow,
+    0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
+  cursor: pointer;
+}
+
+.img-vertical {
+  min-height: 200px;
+  max-height: 200px;
+}
+.img-horizontal {
+  min-height: 200px;
+  max-height: 200px;
+}
+
+.card:hover {
+  transform: scale(1.025);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
 }
 
 /*--------------------------------------------------------------
@@ -1505,6 +1551,7 @@ section {
 --------------------------------------------------------------*/
 .contact .info-box {
   color: #444444;
+  background-color: #ffffff;
   text-align: center;
   box-shadow: 0 0 30px rgba(214, 215, 216, 0.3);
   padding: 20px 0 30px 0;
