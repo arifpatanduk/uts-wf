@@ -214,7 +214,7 @@
                 <h2>PTIK JUARA</h2>
             </div>
 
-            <div class="card mb-3">
+            <div class="card mb-3" data-bs-toggle="modal" data-bs-target="#prestasi1">
                 <div class="row g-0">
                     <div class="col-md-3">
                         <img src="/img/prestasi/kid.png" alt="..." class="img-fluid">
@@ -235,7 +235,7 @@
                 </div>
             </div>
 
-            <div class="card mb-3">
+            <div class="card mb-3" data-bs-toggle="modal" data-bs-target="#prestasi2">
                 <div class="row g-0">
                     <div class="col-md-3">
                         <img src="/img/prestasi/bisplan.jpg" alt="..." class="img-fluid">
@@ -255,7 +255,7 @@
                 </div>
             </div>
 
-            <div class="card mb-3">
+            <div class="card mb-3" data-bs-toggle="modal" data-bs-target="#prestasi3">
                 <div class="row g-0">
                     <div class="col-md-3">
                         <img src="/img/prestasi/a2.jpg" alt="..." class="img-fluid">
@@ -275,11 +275,14 @@
                 </div>
             </div>
 
-            <a href="#" class="text-decoration-none float-end my-3">
+            <a href="/prestasi" class="text-decoration-none float-end my-3">
                 Selengkapnya ...
             </a>
 
         </div>
+
+        <?= $this->include('kemahasiswaan/modal-prestasi'); ?>
+
     </section><!-- End Team Section -->
 
 
