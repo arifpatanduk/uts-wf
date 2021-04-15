@@ -31,12 +31,12 @@ class Pages extends BaseController
 		return view('profil/visiMisi', $data);
 	}
 
-	public function akademik()
+	public function kurikulum()
 	{
 		$data = [
 			'title' => 'Kurikulum PTIK',
 			'active' => 'akademik',
 		];
-		return view('akademik/index', $data);
+		return view('akademik/kurikulum', $data);
 	}
 }

@@ -34,6 +34,7 @@ $routes->setAutoRoute(true);
 $routes->get('/', 'Pages::index');
 $routes->get('/profil', 'Pages::profil');
 $routes->get('/visiMisi', 'Pages::visiMisi');
+$routes->get('/kurikulum', 'Pages::kurikulum');
 
 /*
  * --------------------------------------------------------------------

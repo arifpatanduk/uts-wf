@@ -15,9 +15,9 @@
                     </ul>
                 </li>
 
-                <li class="dropdown"><a href="#"><span>Akademik</span> <i class="bi bi-chevron-down"></i></a>
+                <li class="dropdown"><a class="<?= ($active === 'kurikulum') ? 'active' : ''; ?>"><span>Akademik</span> <i class="bi bi-chevron-down"></i></a>
                     <ul>
-                        <li><a href="#">Kurikulum</a></li>
+                        <li><a href="/kurikulum" class="<?= ($active === 'kurikulum') ? 'active' : ''; ?>">Kurikulum</a></li>
                     </ul>
                 </li>
 
