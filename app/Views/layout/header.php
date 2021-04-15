@@ -21,10 +21,10 @@
                     </ul>
                 </li>
 
-                <li class="dropdown"><a href="#"><span>Kemahasiswaan</span> <i class="bi bi-chevron-down"></i></a>
+                <li class="dropdown"><a class="<?= ($active === 'prestasi') ? 'active' : ''; ?>"><span>Kemahasiswaan</span> <i class="bi bi-chevron-down"></i></a>
                     <ul>
-                        <li><a href="#">Prestasi Mahasiswa PTIK</a></li>
-                        <li><a href="#">Himpunan Mahasiswa</a></li>
+                        <li><a href="/prestasi" class="<?= ($active === 'prestasi') ? 'active' : ''; ?>">Prestasi Mahasiswa</a></li>
+                        <li><a href="https://www.instagram.com/mikroptik_uns/" target="_blank">Himpunan Mahasiswa</a></li>
                     </ul>
                 </li>
                 <li><a class="nav-link scrollto <?= ($active === 'portofolio') ? 'active' : ''; ?>" href="#">Portofolio</a></li>

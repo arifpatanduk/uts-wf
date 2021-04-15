@@ -39,4 +39,13 @@ class Pages extends BaseController
 		];
 		return view('akademik/kurikulum', $data);
 	}
+
+	public function prestasi()
+	{
+		$data = [
+			'title' => 'PTIK Juara',
+			'active' => 'prestasi',
+		];
+		return view('kemahasiswaan/prestasi', $data);
+	}
 }
