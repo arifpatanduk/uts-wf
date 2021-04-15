@@ -36,6 +36,7 @@ $routes->get('/profil', 'Pages::profil');
 $routes->get('/visiMisi', 'Pages::visiMisi');
 $routes->get('/kurikulum', 'Pages::kurikulum');
 $routes->get('/prestasi', 'Pages::prestasi');
+$routes->get('/portofolio', 'Pages::portofolio');
 
 /*
  * --------------------------------------------------------------------

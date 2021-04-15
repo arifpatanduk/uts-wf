@@ -48,4 +48,13 @@ class Pages extends BaseController
 		];
 		return view('kemahasiswaan/prestasi', $data);
 	}
+
+	public function portofolio()
+	{
+		$data = [
+			'title' => 'Portofolio PTIK',
+			'active' => 'portofolio',
+		];
+		return view('portofolio/portofolio', $data);
+	}
 }

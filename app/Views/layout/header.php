@@ -27,7 +27,7 @@
                         <li><a href="https://www.instagram.com/mikroptik_uns/" target="_blank">Himpunan Mahasiswa</a></li>
                     </ul>
                 </li>
-                <li><a class="nav-link scrollto <?= ($active === 'portofolio') ? 'active' : ''; ?>" href="#">Portofolio</a></li>
+                <li><a class="nav-link scrollto <?= ($active === 'portofolio') ? 'active' : ''; ?>" href="/portofolio">Portofolio</a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
         </nav><!-- .navbar -->
