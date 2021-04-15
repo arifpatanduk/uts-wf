@@ -1481,6 +1481,13 @@ section {
   color: #fff;
 }
 
+.box {
+  padding: 20px;
+  background: #fff;
+  border-radius: 0px;
+  position: relative;
+  overflow: hidden;
+}
 /*--------------------------------------------------------------
 # Frequently Asked Questions
 --------------------------------------------------------------*/

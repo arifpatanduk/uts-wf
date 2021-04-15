@@ -140,7 +140,7 @@
                             </div>
                         </li>
 
-                        <a href="#" class="text-decoration-none float-end">
+                        <a href="/profil" class="text-decoration-none float-end">
                             Selengkapnya ...
                         </a>
 
