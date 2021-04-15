@@ -12,6 +12,7 @@ class Pages extends BaseController
 		];
 		return view('home/index', $data);
 	}
+
 	public function profil()
 	{
 		$data = [
@@ -20,6 +21,16 @@ class Pages extends BaseController
 		];
 		return view('profil/profil', $data);
 	}
+
+	public function visiMisi()
+	{
+		$data = [
+			'title' => 'Visi, Misi, & Tujuan Prodi PTIK',
+			'active' => 'visiMisi',
+		];
+		return view('profil/visiMisi', $data);
+	}
+
 	public function akademik()
 	{
 		$data = [

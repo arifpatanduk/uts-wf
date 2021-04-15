@@ -33,6 +33,7 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 $routes->get('/', 'Pages::index');
 $routes->get('/profil', 'Pages::profil');
+$routes->get('/visiMisi', 'Pages::visiMisi');
 
 /*
  * --------------------------------------------------------------------
